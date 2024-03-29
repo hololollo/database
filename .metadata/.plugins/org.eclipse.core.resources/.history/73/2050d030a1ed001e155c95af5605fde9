@@ -1,0 +1,10 @@
+package org.kh.dto;
+
+public class Usertable {
+	private String owner;
+	private String table_name;
+	private String tablespace_name;
+	private int pct_used;
+	private int pct_free;
+	
+}

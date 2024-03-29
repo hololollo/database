@@ -1,0 +1,9 @@
+package org.kh.dto;
+
+public class Controlfile {
+	private String name;
+	private String is_recovery_dest_file;
+	private int block_size;
+	private int file_size_blks;
+	private int con_id;
+}

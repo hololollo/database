@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS 점검 보고서</title>
+</head>
+<body>
+    <h1 style="text-align: center;">DBMS 점검 보고서</h1>
+    <table style="width: 1200; margin: 20px auto;" id="tb1">
+    
+    </table>
+</body>
+</html>

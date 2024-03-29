@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS 설치 완료 보고서</title>
+    <style>
+        #tb1 th { border-top:3px solid #333; border-bottom: 3px solid #333; line-height: 40px;}
+        #tb1 td { border-bottom: 1px solid #333; line-height: 30px; text-align: center;}
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">DBMS 설치 완료 보고서</h1>
+    <!-- DBMS NAME | DBMS IP ADDRESS | DB Service xe | PORT Number 3306 | Table Space Name | DB Name xe | User ID c##test123 | User PW 1234| Role system, user|-->
+    <!--role은 sys, system, dba, user ... -->
+    <table style="width:1200px;margin:20px auto" id="tb1">
+        <thead>
+            <tr>
+           <th>DBMS NAME</th><th>DBMS IP ADDRESS</th><th>DB Service</th><th>PORT Number</th><th>Table Space Name</th><th>DB Name</th><th>User ID</th><th>User PW</th><th>Role</th>         
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MySQL</td> <td>192.168.20.207</td> <td>MySQL80</td> <td>3306</td> <td>root</td> <td>kh</td> <td>root</td> <td>1234</td> <td>system</td>
+            </tr>
+            <tr>
+                <td>MySQL</td> <td>192.168.20.207</td> <td>MySQL80</td> <td>3306</td> <td>test1</td> <td>-</td> <td>test1</td> <td>1234</td> <td>user</td>
+                </tr>            
+            <tr>
+            <tr>
+                <td>MySQL</td> <td>192.168.20.207</td> <td>MySQL80</td> <td>3306</td> <td>test2</td> <td>-</td> <td>test1</td> <td>1234</td> <td>user</td>
+            </tr>            
+            <tr>                
+                <td>Oracle</td> <td>192.168.20.207</td> <td>OracleServiceXE</td> <td>1521</td> <td>System</td> <td>xe</td> <td>system</td> <td>1234</td> <td>system</td>
+            </tr>
+            <tr>
+                 <td>Oracle</td> <td>192.168.20.207</td> <td>OracleServiceXE</td> <td>1521</td> <td>c##test123</td> <td>xe</td> <td>c##test123</td> <td>1234</td> <td>user</td>
+            </tr>            
+            <tr>
+                 <td>MariaDB</td> <td>192.168.20.207</td> <td>MariaDB</td> <td>3308</td> <td>root</td> <td>temp</td> <td>root</td> <td>1234</td> <td>system</td>
+            </tr>            
+        </tbody>
+    </table>
+    <hr>
+	<div>
+		<a href="index.jsp"></a>
+	</div>
+</body>
+</html>

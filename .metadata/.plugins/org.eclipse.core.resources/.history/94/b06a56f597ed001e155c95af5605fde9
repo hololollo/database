@@ -1,0 +1,11 @@
+package org.kh.dto;
+
+public class Logfile {
+
+	 private String type;
+	 private String member;
+	 private String is_recovery_dest_file;
+	 private int con_id;
+    
+    
+}

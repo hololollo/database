@@ -1,0 +1,13 @@
+package org.kh.dto;
+
+public class Logfile {
+	private String creation_time;
+	private String status;
+	private String enabled;
+    private int bytes;
+    private int blocks;
+    private int create_bytes;
+    private int block_size;
+    private String name;
+    private int con_id;
+}

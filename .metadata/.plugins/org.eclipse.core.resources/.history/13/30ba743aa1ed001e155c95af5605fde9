@@ -1,0 +1,19 @@
+package org.kh.dto;
+
+public class Usertable {
+	private String owner;
+	private String table_name;
+	private String tablespace_name;
+	private int pct_used;
+	private int pct_free;
+	public Usertable() {}
+	public Usertable(String owner, String table_name, String tablespace_name, int pct_used, int pct_free) {
+		super();
+		this.owner = owner;
+		this.table_name = table_name;
+		this.tablespace_name = tablespace_name;
+		this.pct_used = pct_used;
+		this.pct_free = pct_free;
+	}
+	
+}
