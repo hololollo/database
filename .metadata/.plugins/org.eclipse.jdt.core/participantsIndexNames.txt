@@ -1,5 +1,7 @@
 INDEX VERSION 1.131
 D:\kang\database\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2218886633.index
 \test01\src
+D:\kang\database\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\883062382.index
+\pro01\src
 D:\kang\database\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3594346345.index
 \test01\src
